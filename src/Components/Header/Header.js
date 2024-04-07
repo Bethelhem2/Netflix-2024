@@ -10,9 +10,9 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function Header() {
   return (
     <div className="external_wrapper sticky-top container-fluid">
-      <div className="internal_wrapper d-flex justify-content-between">
+      <div className="internal_wrapper  justify-content-between">
         <div className="left_side_wrapper ">
-          <ul className="d-flex justify-content-between ">
+          <ul className="d-flex left_side_wrapper_item justify-content-between ">
             <li>
               <img src={netflixLogo} alt="NetflixLogo" width="100" />
             </li>
@@ -25,7 +25,7 @@ function Header() {
           </ul>
         </div>
         <div className="right_side_wrapper ">
-          <ul className="d-flex justify-content-between">
+          <ul className="d-flex right_side_wrapper_item justify-content-between">
             <li>
               <SearchIcon />
             </li>

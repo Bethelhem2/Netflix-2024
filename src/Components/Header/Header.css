@@ -23,3 +23,20 @@ ul {
   list-style-type: none;
   align-items: center;
 }
+@media screen and (max-width: 576px) {
+    .internal_wrapper {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .left_side_wrapper_item {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .right_side_wrapper_item  {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+  }

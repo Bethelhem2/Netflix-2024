@@ -21,7 +21,7 @@ function Footer() {
             <YouTubeIcon />
           </div>
         </div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex footer_ul justify-content-between">
           <div>
             <ul>
               <li>Audio Description</li>
@@ -51,7 +51,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border d-inline p-x-5">Server Code</div>
+        <div className="server-code">Server Code</div>
         <div className="copy-right">
           <CopyrightIcon />
           1997-2024 Netflix, Inc.

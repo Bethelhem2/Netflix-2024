@@ -20,7 +20,7 @@ function truncate(str, n) {
   return (
     <>
       <div
-        className="banner_wrapper container-fluid"
+        className="banner_wrapper"
         style={{
           backgroundSize: "cover",
           backgroundImage: `url('https://image.tmdb.org/t/p/original${movie?.backdrop_path}')`,
@@ -33,9 +33,9 @@ function truncate(str, n) {
           src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
           alt={movie?.title}
         /> */}
-        <div className="banner_elements container">
-          <div className="row">
-            <div className="col-lg-8 col-sm-8">
+        <div className="banner_elements">
+          <div className="banner_internal_wrapper">
+            {/* <div className="col-lg-8 col-sm-8"> */}
               <h1 className="banner_title">
                 {movie?.title || movie?.name || movie?.original_name}
               </h1>
@@ -44,7 +44,7 @@ function truncate(str, n) {
               <h1 className="banner_description">
                 {truncate(movie?.overview, 150)}{" "}
               </h1>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="banner_fadeBottom" />

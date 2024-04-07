@@ -6,11 +6,23 @@
 	transition: transform 450ms;
 	margin-right: 10px;
    }
+/* .row h1 {
+	margin-top: 100px;
+
+} */
+.each_row {
+	background-color: black;
+	padding: 5px;
+}
+.each_row h1 {
+	color: white;
+}
 .row__posters {
 	display: flex;
 	overflow-y: hidden;
 	overflow-x: scroll;
 	padding: 20px;
+	
 	
 }
 .row__posters::-webkit-scrollbar {
@@ -27,7 +39,8 @@
     transform: scale(1.09);
 }
 .row{
-    margin-left: 20px;
+    /* margin-left: 10px; */
 	color: white;
+	/* padding-top: 100px; */
 	
 }
