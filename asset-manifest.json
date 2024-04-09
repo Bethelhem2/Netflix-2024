@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Bethelhem2/Netflix-2024.git/static/css/main.f09b7e85.css",
+    "main.js": "/Bethelhem2/Netflix-2024.git/static/js/main.56e3af97.js",
+    "static/media/netflixLogo.png": "/Bethelhem2/Netflix-2024.git/static/media/netflixLogo.303904f75553a51bbf31.png",
+    "index.html": "/Bethelhem2/Netflix-2024.git/index.html",
+    "main.f09b7e85.css.map": "/Bethelhem2/Netflix-2024.git/static/css/main.f09b7e85.css.map",
+    "main.56e3af97.js.map": "/Bethelhem2/Netflix-2024.git/static/js/main.56e3af97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f09b7e85.css",
+    "static/js/main.56e3af97.js"
+  ]
+}
